@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  text-align: center;
+  margin-top: 70px;
+  padding: 10px;
+  background-color: #fcfcfc;
+}
+
+h2 {
+  font-size: 20px;
+  color: #111;
+  margin-bottom: 8px;
+}
+
+h3 {
+  color: green;
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+p {
+  color: gray;
+  font-size: 10px;
+  margin: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.decrement {
+  background-color: #ff3838;
+  color: white;
+  border-radius: 25px;
+  padding: 8px 16px;
+}
+
+.increment {
+  background-color: #00a844;
+  color: white;
+  border-radius: 25px;
+  padding: 8px 16px;
+}
+
+.reset {
+  width: 100%;
+  margin-top: 5px;
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: white;
+  color: gray;
+}
+
+.decrement:hover {
+  background-color: #d92525;
+}
+
+.increment:hover {
+  background-color: #008b38;
+}
